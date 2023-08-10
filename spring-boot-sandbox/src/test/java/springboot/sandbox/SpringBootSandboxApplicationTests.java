@@ -1,10 +1,10 @@
-package springboot.bankapp;
+package springboot.sandbox;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootBankAppApplicationTests {
+class SpringBootSandboxApplicationTests {
 
     @Test
     void contextLoads() {

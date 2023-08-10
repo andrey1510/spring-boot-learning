@@ -1,4 +1,4 @@
-package springboot.bankapp;
+package springboot.sandbox;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.test.context.TestConfiguration;
@@ -17,7 +17,7 @@ public class TestSpringBootBankAppApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.from(SpringBootBankAppApplication::main).with(TestSpringBootBankAppApplication.class).run(args);
+        SpringApplication.from(SpringBootSandboxApplication::main).with(TestSpringBootBankAppApplication.class).run(args);
     }
 
 }

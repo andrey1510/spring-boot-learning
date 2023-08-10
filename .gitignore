@@ -29,3 +29,6 @@ spring-boot-bank-app/mvnw
 spring-boot-bank-app/mvnw.cmd
 spring-boot-bank-app/.mvn/wrapper/maven-wrapper.jar
 *.jar
+spring-boot-bank-app/.mvn/wrapper/maven-wrapper.jar
+*.jar
+/spring-boot-bank-app/.mvn/wrapper/maven-wrapper.jar
