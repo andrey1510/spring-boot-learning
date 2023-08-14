@@ -16,8 +16,8 @@ public class CustomerCompany extends Customer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "customer_id", nullable = false)
-    Integer customerId;
+    @Column(name = "id", nullable = false)
+    Integer id;
 
     @Column(name = "identifier", nullable = false, length = 150)
     String identifier;

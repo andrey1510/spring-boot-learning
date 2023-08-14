@@ -1,5 +1,8 @@
 helloMessage: "Dev profile"
 
+server:
+  port: 8080
+
 spring:
   datasource:
     url: jdbc:h2:mem:bankbase
@@ -11,3 +14,7 @@ spring:
     defer-datasource-initialization: true
   h2:
     console.enabled: true     #http://localhost:8080/h2-console
+
+springdoc:
+  swagger-ui:
+    enabled: true

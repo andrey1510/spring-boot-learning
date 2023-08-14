@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class Customer {
 
-    Integer customerId;
+    Integer id;
     String identifier;
 
 }
